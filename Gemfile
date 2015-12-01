@@ -6,6 +6,8 @@ gem 'rails', '4.2.5'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
 
+gem 'net-ssh'
+
 gem "nokogiri", ">= 1.6.7.rc"
 
 gem 'dotenv-rails', :groups => [:development, :test]
