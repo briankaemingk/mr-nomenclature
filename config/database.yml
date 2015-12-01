@@ -81,6 +81,6 @@ production:
   adapter: postgresql
   database: mrnomenclature_production
   username: mrnomenclature
-  password: <%= ENV['MRNOMENCLATURE_DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_URL'] %>
   encoding: UTF8
   pool: 5
