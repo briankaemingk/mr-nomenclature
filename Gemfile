@@ -6,7 +6,7 @@ gem 'rails', '4.2.5'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
 
-gem 'net-ssh', '>= 2.9.3.beta1'
+gem 'net-ssh', '2.9.3.beta1'
 
 gem "nokogiri", ">= 1.6.7.rc"
 

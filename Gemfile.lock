@@ -156,7 +156,7 @@ DEPENDENCIES
   dotenv-rails
   jbuilder (~> 2.0)
   jquery-rails
-  net-ssh (>= 2.9.3.beta1)
+  net-ssh (= 2.9.3.beta1)
   nokogiri (>= 1.6.7.rc)
   pg (~> 0.15)
   puma
