@@ -74,7 +74,7 @@ GEM
     mini_portile2 (2.0.0)
     minitest (5.8.3)
     multi_json (1.11.2)
-    net-ssh (2.10.0.beta2)
+    net-ssh (3.0.1)
     nokogiri (1.6.7-x64-mingw32)
       mini_portile2 (~> 2.0.0.rc2)
     pg (0.18.4-x64-mingw32)
@@ -156,7 +156,7 @@ DEPENDENCIES
   dotenv-rails
   jbuilder (~> 2.0)
   jquery-rails
-  net-ssh (= 2.10.0.beta2)
+  net-ssh (= 3.0.1)
   nokogiri (>= 1.6.7.rc)
   pg (~> 0.15)
   puma
