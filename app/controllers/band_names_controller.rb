@@ -7,7 +7,6 @@ class BandNamesController < ApplicationController
   def create
     @band_name = Band_Name.new(band_name_params)
     if @band_name.save
-      flash[:notice] = "Band name was successfully created"
       redirect_to band_names_path
     else
       render 'new'
@@ -15,7 +14,7 @@ class BandNamesController < ApplicationController
   end
 
   def index
-    @band_names = Band_Name.all
+    @band_names = Band_Name.order(title: :asc)
   end
 
   private

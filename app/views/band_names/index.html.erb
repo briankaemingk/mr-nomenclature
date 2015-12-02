@@ -1,5 +1,8 @@
-<h3>Showing all articles</h3>
+<h3>Band names</h3>
 
 <% @band_names.each do |bn| %>
         <%= bn.title %> <br/>
 <% end %>
+
+<br />
+<%= link_to 'Add another', new_band_name_path %>
