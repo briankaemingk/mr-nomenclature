@@ -8,9 +8,16 @@
 <% end %>
 
 <%= form_for @band_name do |f| %>
-<h3>Add band name</h3>
+    <h3>Add band name</h3>
     <p>
- <%= f.text_field :title %> <%= f.submit %>
+      <%= f.text_field :title %> <%= f.submit "go" %>
+    </p>
+
+<% end %>
+
+<%= form_for @band_name do |f| %>
+    <h3>Add band name</h3>
+    <p>
     </p>
 
 <% end %>
