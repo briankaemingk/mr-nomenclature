@@ -1,4 +1,6 @@
 <h3>Band names</h3>
+<%= link_to 'Add another', new_band_name_path %>
+<p>
 
 <% @band_names.each do |bn| %>
         <%= bn.title %> <br/>
