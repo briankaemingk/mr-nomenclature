@@ -79,8 +79,5 @@ test:
 
 production:
   adapter: postgresql
-  database: mrnomenclature_production
-  username: mrnomenclature
-  password: <%= ENV['DATABASE_URL'] %>
   encoding: UTF8
   pool: 5
